@@ -38,5 +38,5 @@ See [ADR-001](docs/adr/ADR-001.md) for the first architecture decision.
 
 ## Status
 Milestones
-- 1: 
+- 1: problem and system context.
 - 2: architecture and repository setup.
