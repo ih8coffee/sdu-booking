@@ -36,7 +36,7 @@ The service is available at least 95% of time.
 The size of data behind the systems should be sufficiently small enough to scale
 well. For example, 1 million requests should not exceed 50Mb in size.
 ### 5. Context Diagram
-reference image later
+![ContextDiagram](../diagrams/ContextDiagram.png)
 ### 6. Team Contribution
 
 | Name | Student ID | Role / Main contribution |
