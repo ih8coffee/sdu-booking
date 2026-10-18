@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="vS1qZ6gD1k2rzeIekyf0">
+    <mxGraphModel dx="842" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-9" edge="1" parent="1" source="fWKCKsHJTwkMG5mji-5J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.009;exitY=0.594;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" target="fWKCKsHJTwkMG5mji-5J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-11" edge="1" parent="1" source="fWKCKsHJTwkMG5mji-5J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.592;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" target="fWKCKsHJTwkMG5mji-5J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;SDU Booking System&lt;br&gt;&lt;br&gt;&lt;/b&gt;manages requests" vertex="1">
+          <mxGeometry height="160" width="160" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Students &amp;amp; Teachers&lt;br&gt;&lt;br&gt;&lt;/b&gt;requests booking" vertex="1">
+          <mxGeometry height="60" width="140" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Staff&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;approves/rejects requests&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="690" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-8" edge="1" parent="1" source="fWKCKsHJTwkMG5mji-5J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.009;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" target="fWKCKsHJTwkMG5mji-5J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-10" edge="1" parent="1" source="fWKCKsHJTwkMG5mji-5J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.991;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" target="fWKCKsHJTwkMG5mji-5J-1">
+          <mxGeometry relative="1" x="-0.0128" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends requests" vertex="1">
+          <mxGeometry height="30" width="160" x="170" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notifies approval/rejection" vertex="1">
+          <mxGeometry height="30" width="160" x="170" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends the made decision" vertex="1">
+          <mxGeometry height="30" width="160" x="520" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fWKCKsHJTwkMG5mji-5J-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends the room, time &amp;amp; user" vertex="1">
+          <mxGeometry height="30" width="160" x="520" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
