@@ -19,7 +19,7 @@ Items in this section will be retroactively be added to weekly milestone logs.
 ## Architecture
 Selected style: Modular Monolith
 
-![Architecture Diagram](docs/diagrams/ArchitectureDiagram.png)
+![Architecture Diagram](docs/diagrams/ArchitectureDiagram.png)  
 *Architecture Diagram*
 
 ![Container diagram](docs/diagrams/ContainerDiagram.png)
