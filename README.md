@@ -43,11 +43,6 @@ npm test
 ![Class Diagram](docs/diagrams/ClassDiagram.png)  
 *Class Diagram*
 
-## ADR
-
-
-
-
 ## Meaningful contributions
 
 Abdrakhpan Dinmukhamed - Backend part and rooms request tests
