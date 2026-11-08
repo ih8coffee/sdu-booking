@@ -2,41 +2,55 @@
 
 > A solution for students and staff looking to book rooms in SDU for self-study/club activities/study groups.
 
-## Problem Summary
-Our system will cover booking various acceptable rooms within SDU. It won’t cover letting users book any room you want at any time, some can be busy by teachers, maintenance etc.
+## How to run
 
-## Team
+Open one terminal and run:
 
-Items in this section will be retroactively be added to weekly milestone logs.
+`
+cd sdu-booking-backend
+pip install -r requirements.txt
+python manage.py runserver
+`
 
-| Name | Student ID | Role / Main contribution |
-|------|-----------|--------------------------|
-| Myrzatayev Nuraly | 240107075 | ADR |
-| Abdrakhpan Dinmukhamed  | 240107044 | Container Diagram |
-| Eralp Aliyar Sengoz | 220107150 | Repository setup, maintenance, and README |
-| Orynbassar Nurpeiis | 240110009 | Architecture Diagram |
+For the next one, BE SURE TO HAVE NODE.JS INSTALLED WITH NPM!!!
+And open another terminal and run:
 
-## Architecture
-Selected style: Modular Monolith
+`
+cd sdu-booking-webapp
+npm install
+copy .env.example .env
+npm run dev
+`
 
-> ![Architecture Diagram](docs/diagrams/ArchitectureDiagram.png)  
-*Architecture Diagram*
+## COMMON BUG:
+If you see that backend is not responding, while running, you may have selected some text on the terminal with the backend running.
+Press CTRL + C to deselect it and django will continue working.
 
-> ![Container diagram](docs/diagrams/ContainerDiagram.png)
-*Container Diagram*
+## Automated tests
 
-See [ADR-001](docs/adr/ADR-001.md) for the first architecture decision.
+CTRL + C on the terminal with the backend running, then run:
 
-## Repository Structure
-| Path | Purpose |
-|------|---------|
-| `docs/architecture/` | Container diagram and diagram source |
-| `docs/adr/` | Architecture Decision Records |
-| `docs/milestones/` | Milestone reports |
-| `src/` | Application source code |
-| `tests/` | Automated tests |
+`
+python manage.py test
+`
 
-## Status
-Completed milestones
-- [x] 1: Problem and system context.
-- [x] 2: Architecture and repository setup.
+OR if you want to run tests of front end, stop the terminal with the front end running by CTRL + C and answering 'y', then run:
+`
+npm test
+`
+
+## Diagrams
+![Class Diagram](docs/diagrams/ClassDiagram.png)  
+*Class Diagram*
+
+## ADR
+
+
+
+
+## Meaningful contributions
+
+Abdrakhpan Dinmukhamed - Backend part and rooms request tests
+Myrzatayev Nuraly - Login system and backend login tests
+Eralp Sengoz - Frontend part
+Orynbassar Nurpeiis - Milestone 3 pdf documentation and class Diagram
