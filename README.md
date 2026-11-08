@@ -19,10 +19,10 @@ Items in this section will be retroactively be added to weekly milestone logs.
 ## Architecture
 Selected style: Modular Monolith
 
-![Architecture Diagram](docs/diagrams/ArchitectureDiagram.png)  
+> ![Architecture Diagram](docs/diagrams/ArchitectureDiagram.png)  
 *Architecture Diagram*
 
-![Container diagram](docs/diagrams/ContainerDiagram.png)
+> ![Container diagram](docs/diagrams/ContainerDiagram.png)
 *Container Diagram*
 
 See [ADR-001](docs/adr/ADR-001.md) for the first architecture decision.
@@ -37,6 +37,6 @@ See [ADR-001](docs/adr/ADR-001.md) for the first architecture decision.
 | `tests/` | Automated tests |
 
 ## Status
-Milestones
-- 1: problem and system context.
-- 2: architecture and repository setup.
+Completed milestones
+- [x] 1: Problem and system context.
+- [x] 2: Architecture and repository setup.
